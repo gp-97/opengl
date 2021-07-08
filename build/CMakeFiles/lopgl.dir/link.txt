@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/lopgl.dir/src/SettingUpWindow/main.cpp.o -o lopgl   -L/home/gp/Projects/learnopengl/libs/glfw/src  -L/home/gp/Projects/learnopengl/libs/glad/src  -Wl,-rpath,/home/gp/Projects/learnopengl/libs/glfw/src:/home/gp/Projects/learnopengl/libs/glad/src libs/glad/libglad.a libs/glfw/src/libglfw3.a -lpthread /usr/lib/x86_64-linux-gnu/librt.so -lm -ldl 
