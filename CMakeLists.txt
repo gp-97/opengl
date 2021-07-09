@@ -2,7 +2,10 @@ cmake_minimum_required(VERSION 3.14.0)
 
 project(lopgl)
 
-add_executable(${PROJECT_NAME} src/SettingUpWindow/main.cpp)
+add_executable(${PROJECT_NAME}
+    # src/SettingUpWindow/main.cpp
+    src/TriangleCreation/main.cpp
+)
 
 add_subdirectory(libs/glad)
 add_subdirectory(libs/glfw)

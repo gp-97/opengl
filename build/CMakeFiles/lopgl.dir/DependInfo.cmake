@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/gp/Projects/learnopengl/src/SettingUpWindow/main.cpp" "/home/gp/Projects/learnopengl/build/CMakeFiles/lopgl.dir/src/SettingUpWindow/main.cpp.o"
+  "/home/gp/Projects/learnopengl/src/TriangleCreation/main.cpp" "/home/gp/Projects/learnopengl/build/CMakeFiles/lopgl.dir/src/TriangleCreation/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

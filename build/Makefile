@@ -240,32 +240,32 @@ docs/fast:
 	$(MAKE) $(MAKESILENT) -f libs/glfw/docs/CMakeFiles/docs.dir/build.make libs/glfw/docs/CMakeFiles/docs.dir/build
 .PHONY : docs/fast
 
-src/SettingUpWindow/main.o: src/SettingUpWindow/main.cpp.o
+src/TriangleCreation/main.o: src/TriangleCreation/main.cpp.o
 
-.PHONY : src/SettingUpWindow/main.o
+.PHONY : src/TriangleCreation/main.o
 
 # target to build an object file
-src/SettingUpWindow/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lopgl.dir/build.make CMakeFiles/lopgl.dir/src/SettingUpWindow/main.cpp.o
-.PHONY : src/SettingUpWindow/main.cpp.o
+src/TriangleCreation/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lopgl.dir/build.make CMakeFiles/lopgl.dir/src/TriangleCreation/main.cpp.o
+.PHONY : src/TriangleCreation/main.cpp.o
 
-src/SettingUpWindow/main.i: src/SettingUpWindow/main.cpp.i
+src/TriangleCreation/main.i: src/TriangleCreation/main.cpp.i
 
-.PHONY : src/SettingUpWindow/main.i
+.PHONY : src/TriangleCreation/main.i
 
 # target to preprocess a source file
-src/SettingUpWindow/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lopgl.dir/build.make CMakeFiles/lopgl.dir/src/SettingUpWindow/main.cpp.i
-.PHONY : src/SettingUpWindow/main.cpp.i
+src/TriangleCreation/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lopgl.dir/build.make CMakeFiles/lopgl.dir/src/TriangleCreation/main.cpp.i
+.PHONY : src/TriangleCreation/main.cpp.i
 
-src/SettingUpWindow/main.s: src/SettingUpWindow/main.cpp.s
+src/TriangleCreation/main.s: src/TriangleCreation/main.cpp.s
 
-.PHONY : src/SettingUpWindow/main.s
+.PHONY : src/TriangleCreation/main.s
 
 # target to generate assembly for a file
-src/SettingUpWindow/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lopgl.dir/build.make CMakeFiles/lopgl.dir/src/SettingUpWindow/main.cpp.s
-.PHONY : src/SettingUpWindow/main.cpp.s
+src/TriangleCreation/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lopgl.dir/build.make CMakeFiles/lopgl.dir/src/TriangleCreation/main.cpp.s
+.PHONY : src/TriangleCreation/main.cpp.s
 
 # Help Target
 help:
@@ -284,9 +284,9 @@ help:
 	@echo "... glad"
 	@echo "... glfw"
 	@echo "... lopgl"
-	@echo "... src/SettingUpWindow/main.o"
-	@echo "... src/SettingUpWindow/main.i"
-	@echo "... src/SettingUpWindow/main.s"
+	@echo "... src/TriangleCreation/main.o"
+	@echo "... src/TriangleCreation/main.i"
+	@echo "... src/TriangleCreation/main.s"
 .PHONY : help
 
 

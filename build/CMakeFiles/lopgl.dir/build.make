@@ -76,27 +76,27 @@ include CMakeFiles/lopgl.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/lopgl.dir/flags.make
 
-CMakeFiles/lopgl.dir/src/SettingUpWindow/main.cpp.o: CMakeFiles/lopgl.dir/flags.make
-CMakeFiles/lopgl.dir/src/SettingUpWindow/main.cpp.o: ../src/SettingUpWindow/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gp/Projects/learnopengl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/lopgl.dir/src/SettingUpWindow/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lopgl.dir/src/SettingUpWindow/main.cpp.o -c /home/gp/Projects/learnopengl/src/SettingUpWindow/main.cpp
+CMakeFiles/lopgl.dir/src/TriangleCreation/main.cpp.o: CMakeFiles/lopgl.dir/flags.make
+CMakeFiles/lopgl.dir/src/TriangleCreation/main.cpp.o: ../src/TriangleCreation/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gp/Projects/learnopengl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/lopgl.dir/src/TriangleCreation/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lopgl.dir/src/TriangleCreation/main.cpp.o -c /home/gp/Projects/learnopengl/src/TriangleCreation/main.cpp
 
-CMakeFiles/lopgl.dir/src/SettingUpWindow/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lopgl.dir/src/SettingUpWindow/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gp/Projects/learnopengl/src/SettingUpWindow/main.cpp > CMakeFiles/lopgl.dir/src/SettingUpWindow/main.cpp.i
+CMakeFiles/lopgl.dir/src/TriangleCreation/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lopgl.dir/src/TriangleCreation/main.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gp/Projects/learnopengl/src/TriangleCreation/main.cpp > CMakeFiles/lopgl.dir/src/TriangleCreation/main.cpp.i
 
-CMakeFiles/lopgl.dir/src/SettingUpWindow/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lopgl.dir/src/SettingUpWindow/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gp/Projects/learnopengl/src/SettingUpWindow/main.cpp -o CMakeFiles/lopgl.dir/src/SettingUpWindow/main.cpp.s
+CMakeFiles/lopgl.dir/src/TriangleCreation/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lopgl.dir/src/TriangleCreation/main.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gp/Projects/learnopengl/src/TriangleCreation/main.cpp -o CMakeFiles/lopgl.dir/src/TriangleCreation/main.cpp.s
 
 # Object files for target lopgl
 lopgl_OBJECTS = \
-"CMakeFiles/lopgl.dir/src/SettingUpWindow/main.cpp.o"
+"CMakeFiles/lopgl.dir/src/TriangleCreation/main.cpp.o"
 
 # External object files for target lopgl
 lopgl_EXTERNAL_OBJECTS =
 
-lopgl: CMakeFiles/lopgl.dir/src/SettingUpWindow/main.cpp.o
+lopgl: CMakeFiles/lopgl.dir/src/TriangleCreation/main.cpp.o
 lopgl: CMakeFiles/lopgl.dir/build.make
 lopgl: libs/glad/libglad.a
 lopgl: libs/glfw/src/libglfw3.a

@@ -62,11 +62,11 @@ GL/gl.h
 GL/glext.h
 -
 
-/home/gp/Projects/learnopengl/src/SettingUpWindow/main.cpp
-iostream
--
+/home/gp/Projects/learnopengl/src/TriangleCreation/main.cpp
 glad/glad.h
 -
 GLFW/glfw3.h
+-
+iostream
 -
 

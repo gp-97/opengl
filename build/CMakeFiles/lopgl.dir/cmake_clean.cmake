@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/lopgl.dir/src/SettingUpWindow/main.cpp.o"
+  "CMakeFiles/lopgl.dir/src/TriangleCreation/main.cpp.o"
   "lopgl"
   "lopgl.pdb"
 )
